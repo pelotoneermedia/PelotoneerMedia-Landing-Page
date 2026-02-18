@@ -37,7 +37,7 @@ const HeroSection = () => {
       <div className="relative max-w-7xl mx-auto px-6 pt-32 pb-24">
         {/* Eyebrow */}
         <p className="font-label text-primary mb-6 tracking-[0.2em]">
-          Cycling Intelligence Platform
+          Cycling Media Platform
         </p>
 
         {/* Headline */}
@@ -45,7 +45,7 @@ const HeroSection = () => {
           className="font-display text-foreground leading-[0.9] mb-8"
           style={{ fontSize: "clamp(4rem, 12vw, 10rem)" }}
         >
-          The Race
+          The Process
           <br />
           <span className="text-primary">Behind</span>
           <br />
@@ -59,9 +59,9 @@ const HeroSection = () => {
 
         {/* Subtext */}
         <p className="text-muted-foreground text-lg max-w-lg mb-12 leading-relaxed" style={{ fontWeight: 300 }}>
-          Race analysis. Tactical breakdowns. Performance insight.
+          Race result. Behind the Scenes. Glaze
           <br />
-          Everything that happens between the start and the podium.
+          Everything that happens between the start and the Peloton.
         </p>
 
         {/* CTA */}

@@ -1,16 +1,4 @@
-import { useState } from "react";
-
 const CTASection = () => {
-  const [email, setEmail] = useState("");
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (email.trim()) {
-      setSubmitted(true);
-      setEmail("");
-    }
-  };
 
   return (
     <section
@@ -41,22 +29,17 @@ const CTASection = () => {
         <p className="text-muted-foreground mb-12 text-lg" style={{ fontWeight: 300 }}>
           Race analysis and tactical breakdowns, straight to your inbox.
         </p>
+        
+          <form action="https://formspree.io/f/mnjbznrg" method="POST" className="flex flex-col sm:flex-row gap-0 max-w-lg mx-auto">
 
-        {submitted ? (
-          <div className="border border-primary/40 bg-primary/5 px-8 py-6">
-            <p className="font-label text-primary tracking-wider">You're in. Expect signal, not noise.</p>
-          </div>
-        ) : (
-          <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-0 max-w-lg mx-auto">
             <input
               type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              name="email"
               placeholder="your@email.com"
               required
               className="flex-1 bg-card border border-border px-5 py-4 text-foreground placeholder:text-muted-foreground text-sm focus:outline-none focus:border-primary transition-colors"
-              style={{ fontFamily: "'Barlow', sans-serif" }}
             />
+
             <button
               type="submit"
               className="font-label bg-primary text-primary-foreground px-8 py-4 text-sm tracking-[0.15em] hover:bg-primary/90 transition-colors whitespace-nowrap"
@@ -64,7 +47,7 @@ const CTASection = () => {
               Start Reading
             </button>
           </form>
-        )}
+        
 
         <p className="font-label text-muted-foreground mt-5 tracking-wider">
           No spam. Just signal.
