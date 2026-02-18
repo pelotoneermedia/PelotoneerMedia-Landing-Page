@@ -24,16 +24,23 @@ const Footer = () => (
 
       {/* Social placeholders */}
       <div className="flex gap-6">
-        {["Twitter / X", "Instagram", "Strava"].map((platform) => (
-          <a
-            key={platform}
-            href="#"
-            className="font-label text-muted-foreground hover:text-primary transition-colors"
-            aria-label={platform}
-          >
-            {platform}
-          </a>
-        ))}
+        {[
+          { name: "Twitter / X", url: "https://x.com/yourusername" },
+          { name: "Instagram", url: "https://instagram.com/yourusername" },
+          { name: "Strava", url: "https://strava.com/athletes/yourid" },
+].map((platform) => (
+  <a
+    key={platform.name}
+    href={platform.url}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="font-label text-muted-foreground hover:text-primary transition-colors"
+    aria-label={platform.name}
+  >
+    {platform.name}
+  </a>
+))}
+
       </div>
     </div>
 
