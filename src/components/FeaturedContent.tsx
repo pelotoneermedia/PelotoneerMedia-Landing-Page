@@ -1,24 +1,24 @@
 const articles = [
   {
-    tag: "Race Breakdown",
-    title: "How Tadej Pogačar Controlled the Peloton for 80km",
+    tag: "Race Result",
+    title: "Jay Vine Takes Home Tour Down Under",
     excerpt:
-      "A frame-by-frame analysis of the UAE Team Emirates strategy at Liège–Bastogne–Liège. How they neutralized every attack before the final climb.",
-    date: "Apr 21, 2025",
+      "Congrats to @jay_vine3 on the win for TDU hopefully the kangaroo did not hurt you that much 🤕 On the real note, congratulations to Jay Vine for the home win in Tour down under.",
+    date: "Jan 27, 2026",
   },
   {
-    tag: "Tactical Insight",
-    title: "The Art of the Echelon: Wind, Angles, and Attrition",
+    tag: "Technology",
+    title: "Lidl-Trek Kit Reveal",
     excerpt:
-      "Why crosswind stages aren't just about suffering — they're chess matches played at 50km/h. We break down the geometry of the split.",
-    date: "Mar 15, 2025",
+      "Is it hot 🔥 or nah? Lidl-Trek has unveiled their 2026 season kit. Will their season be as good as their kit?",
+    date: "Dec 25, 2025",
   },
   {
-    tag: "Performance Analysis",
-    title: "Riding the Red Zone: When Breakaways Are Calculated Bets",
+    tag: "Behind The Scene",
+    title: "Shocking Transfers of 2026",
     excerpt:
-      "Not all breakaways are desperate escapes. The data behind when teams send riders up the road — and why they're rarely surprised when it works.",
-    date: "Feb 28, 2025",
+      "IT HAS BEEN CONFIRMED! These riders are confirmed to change their teams at the end of this season:",
+    date: "Dec 8, 2025",
   },
 ];
 

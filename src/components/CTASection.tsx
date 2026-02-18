@@ -21,13 +21,13 @@ const CTASection = () => {
           className="font-display text-foreground leading-tight mb-6"
           style={{ fontSize: "clamp(2.5rem, 7vw, 5rem)" }}
         >
-          Intelligence,
+          Stay In
           <br />
-          Delivered.
+          Touch
         </h2>
 
         <p className="text-muted-foreground mb-12 text-lg" style={{ fontWeight: 300 }}>
-          Race analysis and tactical breakdowns, straight to your inbox.
+          Hottest Cycling news straight to your mailbox
         </p>
         
           <form action="https://formspree.io/f/mnjbznrg" method="POST" className="flex flex-col sm:flex-row gap-0 max-w-lg mx-auto">
