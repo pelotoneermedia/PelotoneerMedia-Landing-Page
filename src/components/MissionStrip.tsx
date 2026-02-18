@@ -1,8 +1,8 @@
 const statements = [
-  { label: "01", text: "Gather" },
-  { label: "02", text: "Verify" },
-  { label: "03", text: "Publish" },
-  { label: "03", text: "Inspire" },
+  { label: "01", text: "Gather News" },
+  { label: "02", text: "Verify Sources" },
+  { label: "03", text: "Publish Story" },
+  { label: "03", text: "Inspire Riders" },
 ];
 
 const MissionStrip = () => (

@@ -50,7 +50,7 @@ const CTASection = () => {
         
 
         <p className="font-label text-muted-foreground mt-5 tracking-wider">
-          No spam. Just signal.
+          No spam. Just News.
         </p>
       </div>
     </section>
