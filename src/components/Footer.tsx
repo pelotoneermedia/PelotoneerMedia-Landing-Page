@@ -26,7 +26,7 @@ const Footer = () => (
       <div className="flex gap-6">
         {[
           { name: "Twitter / X", url: "https://x.com/yourusername" },
-          { name: "Instagram", url: "https://instagram.com/yourusername" },
+          { name: "Instagram", url: "https://instagram.com/pelotoneer" },
           { name: "Strava", url: "https://strava.com/athletes/yourid" },
 ].map((platform) => (
   <a

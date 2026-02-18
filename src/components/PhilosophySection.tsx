@@ -12,7 +12,7 @@ const PhilosophySection = () => (
         className="font-display text-border/30 leading-none"
         style={{ fontSize: "clamp(12rem, 35vw, 32rem)", opacity: 0.12 }}
       >
-        W
+        P
       </span>
     </div>
 
@@ -27,9 +27,9 @@ const PhilosophySection = () => (
         className="font-display text-foreground leading-tight mb-12"
         style={{ fontSize: "clamp(2.2rem, 6vw, 5rem)" }}
       >
-        "The peloton is not chaos.
+        "The peloton is not chaos
         <br />
-        <span className="text-primary">It's choreography.</span>"
+        <span className="text-primary">It's harmony</span>"
       </blockquote>
 
       {/* Descriptor paragraph */}
@@ -37,9 +37,8 @@ const PhilosophySection = () => (
         className="text-muted-foreground max-w-2xl mx-auto text-lg leading-relaxed"
         style={{ fontWeight: 300 }}
       >
-        Pelotoneer is built for riders, analysts, and fans who demand more from
-        the sport. We don't chase the moment — we explain the system behind it.
-        Every race has a logic. We find it.
+        Pelotoneer is built for riders and fans who demand more from the sport. 
+        We explain the system behind cycling. Every race has a logic. We find it.
       </p>
     </div>
   </section>

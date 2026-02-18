@@ -62,7 +62,7 @@ const FeaturedContent = () => (
             </p>
 
             <a
-              href="#"
+              href="https://instagram.com/pelotoneer"
               className="font-label text-foreground/40 group-hover:text-primary transition-colors self-start mt-auto"
             >
               Read More →
