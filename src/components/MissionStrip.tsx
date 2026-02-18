@@ -1,8 +1,7 @@
 const statements = [
-  { label: "01", text: "Beyond the highlights." },
-  { label: "02", text: "Strategy. Decisions. Dynamics." },
-  { label: "03", text: "Intelligence over noise." },
-  { label: "04", text: "The peloton, decoded." },
+  { label: "01", text: "Research" },
+  { label: "02", text: "Write" },
+  { label: "03", text: "Distribute" },
 ];
 
 const MissionStrip = () => (
