@@ -25,7 +25,7 @@ const Footer = () => (
       {/* Social placeholders */}
       <div className="flex gap-6">
         {[
-          { name: "X", url: "https://x.com/yourusername" },
+          { name: "X", url: "https://x.com/pelotoneer" },
           { name: "Instagram", url: "https://instagram.com/pelotoneer" },
 ].map((platform) => (
   <a

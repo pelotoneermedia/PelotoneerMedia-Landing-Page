@@ -69,7 +69,7 @@ const HeroSection = () => {
           href="#subscribe"
           className="inline-block font-label bg-primary text-primary-foreground px-10 py-4 text-sm tracking-[0.18em] hover:bg-primary/90 transition-colors"
         >
-          Join the Movement
+          Join the Ride
         </a>
       </div>
     </section>
