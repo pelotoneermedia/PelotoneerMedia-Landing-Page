@@ -20,13 +20,6 @@ const articles = [
       "IT HAS BEEN CONFIRMED! These riders are confirmed to change their teams at the end of this season:",
     date: "Dec 8, 2025",
   },
-  {
-    tag: "Behind The Scene",
-    title: "Shocking Transfers of 2026",
-    excerpt:
-      "IT HAS BEEN CONFIRMED! These riders are confirmed to change their teams at the end of this season:",
-    date: "Dec 8, 2025",
-  },
 ];
 
 const FeaturedContent = () => (
