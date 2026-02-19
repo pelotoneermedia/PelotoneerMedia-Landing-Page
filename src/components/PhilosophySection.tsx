@@ -27,7 +27,7 @@ const PhilosophySection = () => (
         className="font-display text-foreground leading-tight mb-12"
         style={{ fontSize: "clamp(2.2rem, 6vw, 5rem)" }}
       >
-        "The peloton is not chaos
+        "The peloton <br/> is not chaos
         <br />
         <span className="text-primary">It's harmony</span>"
       </blockquote>
